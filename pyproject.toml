@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "get_random_password"
+version = "0.0.1"
+description = "A python package that allows to get a random password"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Johnny4good/password-generator"
+Issues = "https://github.com/Johnny4good/password-generator/issues"
